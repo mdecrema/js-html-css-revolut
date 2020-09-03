@@ -12,6 +12,10 @@ body {
   text-transform: uppercase;
 }
 
+.f_size14 {
+  font-size: 14px;
+}
+
 .grey {
   color: grey;
 }
@@ -23,6 +27,10 @@ body {
 #logo {
   width: 100px;
   vertical-align: middle;
+}
+
+.m_auto {
+  margin: auto;
 }
 
 .left-side li {
@@ -38,4 +46,12 @@ body {
   list-style: none;
   padding: 5px 10px;
   display: inline-block;
+}
+
+.pink_link {
+  text-decoration: none;
+  background-color: #D22A8B;
+  border-radius: 20px;
+  padding: 5px 20px;
+  color: #fff;
 }
