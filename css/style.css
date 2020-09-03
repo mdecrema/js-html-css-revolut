@@ -69,7 +69,8 @@ body {
 }
 
 .hidden-menu {
-  height: 200px;
+  min-width: 100px;
+  min-height: 100px;
   border: 1px solid #fff;
   box-shadow: 1px 2px grey;
   display: none;
@@ -78,7 +79,7 @@ body {
 }
 
 .hidden-menu li {
-  padding: 10px 5px;
+  padding: 12px 10px;
 }
 
 .active {
