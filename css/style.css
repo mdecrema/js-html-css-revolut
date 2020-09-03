@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.up_case {
+  text-transform: uppercase;
+}
+
+.grey {
+  color: grey;
+}
+
+.green {
+  background-color: green;
+}
+
+nav {
+  width: 90%;
+  background-color: lightblue;
+  height: 50px;
+}
+
+#logo {
+  width: 100px;
+  vertical-align: middle;
+}
+
+.left-side li {
+  padding: 5px 15px;
+  display: inline-block;
+}
+
+.right-side, .left-side {
+  display: inline-block;
+}
+
+.right-side li {
+  list-style: none;
+  padding: 5px 10px;
+  display: inline-block;
+}
