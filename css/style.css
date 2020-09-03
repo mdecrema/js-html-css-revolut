@@ -42,6 +42,14 @@ body {
   display: inline-block;
 }
 
+.left-side {
+  margin-left: 10%;
+}
+
+.right-side {
+  margin-left: 10%;
+}
+
 .right-side li {
   list-style: none;
   padding: 5px 10px;
@@ -52,6 +60,6 @@ body {
   text-decoration: none;
   background-color: #D22A8B;
   border-radius: 20px;
-  padding: 5px 20px;
+  padding: 10px 20px;
   color: #fff;
 }
