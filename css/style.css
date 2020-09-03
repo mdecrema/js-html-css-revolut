@@ -63,3 +63,20 @@ body {
   padding: 10px 20px;
   color: #fff;
 }
+
+.hidden-menu li {
+  display: list-item;
+}
+
+.hidden-menu {
+  height: 200px;
+  border: 1px solid #fff;
+  box-shadow: 1px 2px grey;
+  display: block;
+  position: absolute;
+  top: 50px;
+}
+
+.hidden-menu li {
+  padding: 10px 5px;
+}
