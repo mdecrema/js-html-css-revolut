@@ -8,38 +8,13 @@ var contiHidden = $(".hidden-menu.c");
 var menuProdotti = $(".prodotti");
 var prodottiHidden = $(".hidden-menu.p");
 
-// Funzioni Mouse-Over e Mouse-Out per il menu 'Azienda'
-menuAzienda.mouseover(function() {
-  aziendaHidden.addClass("active");
-});
 
-menuAzienda.mouseout(function() {
-  aziendaHidden.removeClass("active");
-});
-
-// Funzioni Mouse-Over e Mouse-Out per il menu 'Tariffazione'
-menuTariffazione.mouseover(function() {
-  tariffazioneHidden.addClass("active");
-});
-
-menuTariffazione.mouseout(function() {
-  tariffazioneHidden.removeClass("active");
-});
-
-// Funzioni Mouse-Over e Mouse-Out per il menu 'Conti'
-menuConti.mouseover(function() {
-  contiHidden.addClass("active");
-});
-
-menuConti.mouseout(function() {
-  contiHidden.removeClass("active");
-});
-
-// Funzioni Mouse-Over e Mouse-Out per il menu 'Prodotti'
-menuProdotti.mouseover(function() {
-  prodottiHidden.addClass("active");
-});
-
-menuProdotti.mouseout(function() {
-  prodottiHidden.removeClass("active");
+// Funzione Mouse-Over e Mouse-Out
+$(document).ready(function() {
+  $(".grey").mouseover(function() {
+    $(this).find(">.hidden-menu").addClass("active");
+  });
+  $(".grey").mouseout(function() {
+    $(this).find(">.hidden-menu").removeClass("active");
+  });
 });
